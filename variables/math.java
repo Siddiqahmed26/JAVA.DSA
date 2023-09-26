@@ -24,6 +24,9 @@ public class math {
         float div = x/y;
           System.out.println("Division is :");
         System.out.println(div);
+
+    
+
     }
     
 }
