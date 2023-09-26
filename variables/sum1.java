@@ -6,6 +6,11 @@ public class sum1 {
         int b = sc.nextInt();
         int sum = a+b;
         System.out.println(sum);
+
+            int c = sc.nextInt();
+        int d = sc.nextInt();
+        int mul = c*d;
+        System.out.println(mul);
     }
     
 }
