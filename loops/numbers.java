@@ -9,7 +9,7 @@ public class numbers {
         // printing numbers from 1-1000
         while(i<=n){
             sum = sum+i;
-            i++;
+            // i
             
             
 
