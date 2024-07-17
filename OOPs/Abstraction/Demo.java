@@ -1,11 +1,10 @@
 import java.util.*;
 
-abstract class Shape{
+abstract class Shape{ //impure abstract class
 float area;
 abstract void input();
 abstract void calcArea();   
-
-void disp(){
+void disp(){ // concrete method
     System.out.println("Area is: "+ area);
  }
 
