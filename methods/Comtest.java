@@ -9,7 +9,8 @@ class Product {
     }
 
     void buy(Company c) {
-        System.out.println(this.name + "is a product");
+        System.out.println(this.name +" "+ "is a product");
+        System.out.println(this.price +" "+ " is the price");
         c.cInfo();
 
     }
@@ -19,13 +20,13 @@ class Company {
     int stocks;
 
     Company(String name, int stocks) {
-        this.name = name;
+        this.name = name; 
         this.stocks = stocks;
 
     }
 
     void cInfo() {
-        System.out.println("company info");
+        System.out.println(" COMPANY INFO :");
         System.out.println("company name" + this.name);
         System.out.println("company stocks" + this.stocks);
     }
