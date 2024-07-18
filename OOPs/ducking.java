@@ -16,7 +16,7 @@ public class ducking {
             d.fun1();
     }
     catch (Exception e){
-        System.out.println("Error : "+e);
+        System.out.println(e.getMessage());
     }
     
 }
