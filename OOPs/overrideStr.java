@@ -12,11 +12,6 @@ class parent{
     }
 }
 
-
-
-
-
-
 public class overrideStr {
     public static void main(String[] args) {
         parent p = new parent(20);
