@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*; //SINGLE THREADED PROGRAM
 class bank{
     void input(){
         Scanner sc = new Scanner(System.in);
