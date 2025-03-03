@@ -1,7 +1,10 @@
 import java.util.*; //MULTI THREADED PROGRAM
 
+
+
+//THREAD 1 
 class User extends Thread{
-    User(){
+    User(){ //CONSTRUCTOR
     start();
     }
 public void run(){
@@ -16,9 +19,10 @@ public void run(){
 }
 
 
+//THREAD 2
 
 class Transaction extends Thread{
-    Transaction(){
+    Transaction(){ //CONSTRUCTOR
     start();
     }
 public void run(){
@@ -36,8 +40,10 @@ public void run(){
 }
 }
 
+//THREAD 3
+
 class Test extends Thread{
-    Test(){
+    Test(){ //CONSTRUCTOR
     start();
     }
 public void run(){
